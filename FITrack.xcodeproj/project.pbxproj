@@ -16,6 +16,10 @@
 		8D737F482B3E1C4200E7A3B1 /* FITrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D737F472B3E1C4200E7A3B1 /* FITrackTests.swift */; };
 		8D737F522B3E1C4200E7A3B1 /* FITrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D737F512B3E1C4200E7A3B1 /* FITrackUITests.swift */; };
 		8D737F542B3E1C4200E7A3B1 /* FITrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D737F532B3E1C4200E7A3B1 /* FITrackUITestsLaunchTests.swift */; };
+		8D737F612B3E1F1300E7A3B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D737F602B3E1F1300E7A3B1 /* HomeView.swift */; };
+		8D737F642B3E23CA00E7A3B1 /* Outfit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D737F632B3E23CA00E7A3B1 /* Outfit.ttf */; };
+		8D737F662B3E285C00E7A3B1 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D737F652B3E285C00E7A3B1 /* FontModifier.swift */; };
+		8D737F682B3E3ED900E7A3B1 /* FoodTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D737F672B3E3ED900E7A3B1 /* FoodTrackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		8D737F4D2B3E1C4200E7A3B1 /* FITrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FITrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D737F512B3E1C4200E7A3B1 /* FITrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FITrackUITests.swift; sourceTree = "<group>"; };
 		8D737F532B3E1C4200E7A3B1 /* FITrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FITrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D737F602B3E1F1300E7A3B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8D737F632B3E23CA00E7A3B1 /* Outfit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Outfit.ttf; sourceTree = "<group>"; };
+		8D737F652B3E285C00E7A3B1 /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
+		8D737F672B3E3ED900E7A3B1 /* FoodTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +108,11 @@
 		8D737F2E2B3E1C4100E7A3B1 /* FITrack */ = {
 			isa = PBXGroup;
 			children = (
+				8D737F622B3E21E400E7A3B1 /* shared */,
 				8D737F2F2B3E1C4100E7A3B1 /* FITrackApp.swift */,
 				8D737F312B3E1C4100E7A3B1 /* ContentView.swift */,
+				8D737F602B3E1F1300E7A3B1 /* HomeView.swift */,
+				8D737F672B3E3ED900E7A3B1 /* FoodTrackView.swift */,
 				8D737F332B3E1C4200E7A3B1 /* Assets.xcassets */,
 				8D737F382B3E1C4200E7A3B1 /* Persistence.swift */,
 				8D737F3D2B3E1C4200E7A3B1 /* FITrack.entitlements */,
@@ -135,6 +146,15 @@
 				8D737F532B3E1C4200E7A3B1 /* FITrackUITestsLaunchTests.swift */,
 			);
 			path = FITrackUITests;
+			sourceTree = "<group>";
+		};
+		8D737F622B3E21E400E7A3B1 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				8D737F632B3E23CA00E7A3B1 /* Outfit.ttf */,
+				8D737F652B3E285C00E7A3B1 /* FontModifier.swift */,
+			);
+			path = shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D737F642B3E23CA00E7A3B1 /* Outfit.ttf in Resources */,
 				8D737F372B3E1C4200E7A3B1 /* Preview Assets.xcassets in Resources */,
 				8D737F342B3E1C4200E7A3B1 /* Assets.xcassets in Resources */,
 			);
@@ -270,7 +291,10 @@
 				8D737F3C2B3E1C4200E7A3B1 /* FITrack.xcdatamodeld in Sources */,
 				8D737F392B3E1C4200E7A3B1 /* Persistence.swift in Sources */,
 				8D737F322B3E1C4100E7A3B1 /* ContentView.swift in Sources */,
+				8D737F612B3E1F1300E7A3B1 /* HomeView.swift in Sources */,
 				8D737F302B3E1C4100E7A3B1 /* FITrackApp.swift in Sources */,
+				8D737F662B3E285C00E7A3B1 /* FontModifier.swift in Sources */,
+				8D737F682B3E3ED900E7A3B1 /* FoodTrackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

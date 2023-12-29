@@ -17,4 +17,15 @@ struct FITrackApp: App {
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
+    
+    init(){
+        for family in UIFont.familyNames {
+             print(family)
+             for names in UIFont.fontNames(forFamilyName: family){
+//             print("    - \(names)")
+             print("Font.custom(\"\(names)\", size: size)")
+
+             }
+        }
+    }
 }
