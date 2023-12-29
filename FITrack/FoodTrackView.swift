@@ -17,10 +17,15 @@ struct FoodTrackView: View {
             }
             VStack(alignment: .leading) {
                 HStack {
-                    Circle().frame(width: 64, height: 64)
+                    Circle().frame(width: 64, height: 64).foregroundStyle(.white).overlay {
+                        Image(systemName: "chevron.backward").foregroundStyle(.black)
+                    }
                     Spacer()
-                    Circle().frame(width: 64, height: 64)
-                }.padding().foregroundStyle(.gray)
+                    Circle().frame(width: 64, height: 64).foregroundStyle(.white).overlay {
+                        Image(systemName: "gearshape").foregroundStyle(.black)
+                        
+                    }
+                }.padding()
                 HStack{
                     ExtractedView()
                     Spacer()

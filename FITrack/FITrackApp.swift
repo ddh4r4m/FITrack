@@ -16,6 +16,7 @@ struct FITrackApp: App {
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
             FoodTrackView()
+//                HomeView()
         }
     }
     
