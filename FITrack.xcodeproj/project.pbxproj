@@ -20,6 +20,7 @@
 		8D737F642B3E23CA00E7A3B1 /* Outfit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D737F632B3E23CA00E7A3B1 /* Outfit.ttf */; };
 		8D737F662B3E285C00E7A3B1 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D737F652B3E285C00E7A3B1 /* FontModifier.swift */; };
 		8D737F682B3E3ED900E7A3B1 /* FoodTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D737F672B3E3ED900E7A3B1 /* FoodTrackView.swift */; };
+		8D737F6A2B3F613700E7A3B1 /* WeekDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D737F692B3F613700E7A3B1 /* WeekDaysView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		8D737F632B3E23CA00E7A3B1 /* Outfit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Outfit.ttf; sourceTree = "<group>"; };
 		8D737F652B3E285C00E7A3B1 /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
 		8D737F672B3E3ED900E7A3B1 /* FoodTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackView.swift; sourceTree = "<group>"; };
+		8D737F692B3F613700E7A3B1 /* WeekDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDaysView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				8D737F312B3E1C4100E7A3B1 /* ContentView.swift */,
 				8D737F602B3E1F1300E7A3B1 /* HomeView.swift */,
 				8D737F672B3E3ED900E7A3B1 /* FoodTrackView.swift */,
+				8D737F692B3F613700E7A3B1 /* WeekDaysView.swift */,
 				8D737F332B3E1C4200E7A3B1 /* Assets.xcassets */,
 				8D737F382B3E1C4200E7A3B1 /* Persistence.swift */,
 				8D737F3D2B3E1C4200E7A3B1 /* FITrack.entitlements */,
@@ -293,6 +296,7 @@
 				8D737F322B3E1C4100E7A3B1 /* ContentView.swift in Sources */,
 				8D737F612B3E1F1300E7A3B1 /* HomeView.swift in Sources */,
 				8D737F302B3E1C4100E7A3B1 /* FITrackApp.swift in Sources */,
+				8D737F6A2B3F613700E7A3B1 /* WeekDaysView.swift in Sources */,
 				8D737F662B3E285C00E7A3B1 /* FontModifier.swift in Sources */,
 				8D737F682B3E3ED900E7A3B1 /* FoodTrackView.swift in Sources */,
 			);
